@@ -45,8 +45,8 @@
 
 #topcont{
 	position:absolute;
-	top: 400px;
-	left:1%;
+	top: 0px;
+	left: 1%;
 	width: 900px;
 	font-family:Roboto;
 }
