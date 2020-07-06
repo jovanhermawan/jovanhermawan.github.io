@@ -30,6 +30,7 @@
 }
 #top{
 	height:600px;
+	display: none;
 	background-image: url("jovan1.jpeg");
 	background-position: center;
 	color:white;
