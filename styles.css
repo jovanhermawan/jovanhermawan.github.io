@@ -8,7 +8,7 @@
 }
 #jovan {
 	font-family:Roboto, sans-serif;
-	bottom:5px;
+	bottom:1px;
 	padding-left: 30px;
 }
 
@@ -23,11 +23,17 @@
 }
 
 .btn{
-	color:black;
+	color:white;
+	background-color: black;
+	font-family:Roboto;
+	font-size:20px;
 }
+
+
 #drop{
-	top:10px;
+	top:20px;
 }
+
 #top{
 	height:600px;
 	display: none;
@@ -35,24 +41,32 @@
 	background-position: center;
 	color:white;
 	left:0px;
-	right:0px;
-}
+	right:0px;}
+
 #topcont{
 	position:absolute;
-	top: 450px;
-	left:34%;
+	top: 400px;
+	left:1%;
+	width: 900px;
 	font-family:Roboto;
 }
-#tes{
-	text-align: center;
-}
+
 #icons{
 	position:relative;
-	top: 20px;
+	top: 5px;
 }
 .fa{
 	color:white;
 }
 .ig{
 	top:1px;
+}
+#desc{
+	font-size: 20px;
+}
+
+#connect{
+	position:relative;
+	bottom:20px;
+	font-family:Roboto;
 }
