@@ -1,0 +1,45 @@
+@import <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">;
+.header {
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+	left:0px;
+	right:0px;
+}
+#jovan {
+	font-family:Roboto, sans-serifs;
+	bottom:5px;
+	padding-left: 30px;
+}
+
+.sticky{
+	position: fixed;
+	top:0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.btn{
+	color:black;
+}
+#drop{
+	top:10px;
+}
+#top{
+	height:600px;
+	background-image: url("jovan1.jpeg");
+	background-position: center;
+	color:white;
+}
+#topcont{
+	position:absolute;
+	top: 450px;
+	left:34%;
+	font-family:Roboto;
+}
+#tes{
+	text-align: center;
+}
