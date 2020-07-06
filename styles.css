@@ -34,6 +34,8 @@
 	background-image: url("jovan1.jpeg");
 	background-position: center;
 	color:white;
+	left:0px;
+	right:0px;
 }
 #topcont{
 	position:absolute;
@@ -43,4 +45,14 @@
 }
 #tes{
 	text-align: center;
+}
+#icons{
+	position:relative;
+	top: 20px;
+}
+.fa{
+	color:white;
+}
+.ig{
+	top:1px;
 }
