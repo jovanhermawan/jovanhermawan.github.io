@@ -70,3 +70,10 @@
 	bottom:20px;
 	font-family:Roboto;
 }
+
+@media only screen and (max-width: 1008px) {
+.top{
+	height:100px;
+}
+  
+}
