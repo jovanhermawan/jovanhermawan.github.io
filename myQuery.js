@@ -1,5 +1,5 @@
 $(document).ready(function(){
-		$("#top").fadeIn(2000, function(){
+		$("#top").fadeIn(1000, function(){
 	$("#topcont").animate({
 		top: "400px"
 	},"slow");
