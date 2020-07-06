@@ -1,4 +1,5 @@
 @import <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">;
+
 .header {
 	background: #2D3445;
 	color: white;
@@ -58,9 +59,7 @@
 .fa{
 	color:white;
 }
-.ig{
-	top:1px;
-}
+
 #desc{
 	font-size: 20px;
 }
@@ -71,9 +70,35 @@
 	font-family:Roboto;
 }
 
-@media only screen and (max-width: 1008px) {
-.top{
-	height:100px;
-}
-  
-}
+
+
+@media screen and (max-width: 768px) {
+	#top{
+	height: 0px;
+	}
+	#jovan{
+		font-size: 25px;
+		bottom: 13px;
+	}
+	.header{
+		height:40px;
+	}
+	#connect{
+		display:none;
+	}
+	.fa{
+		bottom: 20px;
+		padding-right:50px;
+	}
+	#drop{
+		display:none;
+	}
+	#top{
+		color: black;
+		display:unset;
+		position:relative;
+	}
+	#topcont{
+		width:90%;
+	}
+ }
